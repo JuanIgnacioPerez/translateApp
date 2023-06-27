@@ -2,7 +2,7 @@ import React from 'react';
 
 function Languages({ language, onLanguageChange }) {
   return (
-    <div>
+    <div className='selectlg'>
       <label className='label'>Select Language</label>
       <div className='opts'>
         {LANGUAGES.map(({ label, value }) => {

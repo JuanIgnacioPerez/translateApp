@@ -8,6 +8,7 @@ function Translate({ language, text }) {
     <div className='translate'>
       <label className='label'>Output</label>
       <h1 className='title'>:c{translated.replace('&#39;', "'")}</h1>
+      pinche Api
     </div>
   );
 }
